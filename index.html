@@ -3,99 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anato Elysé - Présentation</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-        header h1 {
-            margin: 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #333;
-        }
-        p {
-            line-height: 1.6;
-            color: #555;
-        }
-        .skills {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        .skills div {
-            flex: 1 1 30%;
-            background-color: #f0f0f0;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 10px;
-            text-align: center;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: #fff;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Carte de Visite - Anato Elysé</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Présentation d'Anato Elysé</h1>
+        <div class="header-content">
+            <h1>Anato Elysé</h1>
+            <img src="ton_image.jpg" alt="Photo de Anato Elysé" class="profile-img">
+            <p>Expert en conception graphique & analyse crypto.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#biographie">À propos de moi</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#quiz">Jeu</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <div class="container">
-        <section id="about">
-            <h2>À propos de moi</h2>
-            <p>Je m'appelle Anato Elysé, un jeune Béninois de 18 ans actuellement en classe de terminale. Passionné par la technologie, la conception graphique, et l'entrepreneuriat, je travaille sur différents projets visant à aider les entreprises, notamment les restaurants, à augmenter leur clientèle et à améliorer leurs ventes. Je m’intéresse aussi au domaine des cryptomonnaies et aux investissements en ligne.</p>
-        </section>
-        
-        <section id="projects">
-            <h2>Mes Projets</h2>
-            <p>Je suis actuellement le fondateur de <strong>BearBoost</strong>, une entreprise qui a pour but de fournir des solutions marketing pour booster la visibilité des entreprises locales. J'ai aussi un projet de chaîne YouTube nommé <strong>DailySnap</strong>, qui diffuse des vidéos courtes inspirantes pour motiver les jeunes et les entrepreneurs à travers le monde.</p>
-        </section>
-        
-        <section id="skills">
-            <h2>Compétences</h2>
-            <div class="skills">
-                <div>
-                    <h3>Conception graphique</h3>
-                    <p>Création de logos, flyers, et contenu visuel avec des outils comme Adobe Illustrator et Canva sous le nom <strong>GraphicZen</strong>.</p>
-                </div>
-                <div>
-                    <h3>Développement Web</h3>
-                    <p>Création de sites statiques et gestion de contenu web avec HTML, CSS, et GitHub Pages.</p>
-                </div>
-                <div>
-                    <h3>Cryptomonnaie</h3>
-                    <p>Analyse et investissement dans les cryptomonnaies, avec une expertise particulière sur la blockchain TON et Jefe Coin.</p>
-                </div>
+
+    <section id="biographie">
+        <h2>À propos de moi</h2>
+        <p>Je m'appelle Anato Elysé, né en 2006, et je suis actuellement étudiant à l'université. Depuis mon jeune âge, j'ai toujours été passionné par l'art et la technologie. J'ai commencé à explorer le monde de la conception graphique à l'âge de 15 ans, et depuis, je n'ai cessé de perfectionner mes compétences. Au cours de mes études universitaires, je me concentre sur la création de solutions innovantes pour les entreprises, les aidant à augmenter leur visibilité et à attirer plus de clients.</p>
+        <p>Je suis également fasciné par les crypto-monnaies, un domaine qui m'a permis d'acquérir des compétences en analyse de marché et en investissements. En dehors de mes études, je participe à divers projets qui visent à promouvoir la technologie et à éduquer les autres sur ses avantages. Mon objectif est de fusionner mes compétences en conception avec ma passion pour la technologie afin de créer des expériences visuelles mémorables.</p>
+        <p>J'aime aussi partager mes connaissances à travers des tutoriels et des conseils sur les réseaux sociaux, en aidant d'autres personnes à se lancer dans la conception graphique et l'investissement en crypto-monnaies. Je crois que la technologie doit être accessible à tous et je m'efforce de rendre mes créations aussi inclusives que possible.</p>
+    </section>
+
+    <section id="competences">
+        <h2>Mes Compétences</h2>
+        <ul>
+            <li><strong>Conception Graphique :</strong> Création de visuels attrayants et impactants pour divers supports, y compris des affiches, des logos et des sites web.</li>
+            <li><strong>Analyse de Crypto-monnaies :</strong> Étude des tendances du marché des crypto-monnaies, identification des opportunités d'investissement et élaboration de stratégies d'achat.</li>
+            <li><strong>Développement Web :</strong> Compétences dans le développement de sites web réactifs et interactifs, en utilisant HTML, CSS et JavaScript.</li>
+            <li><strong>Marketing Digital :</strong> Élaboration de stratégies de marketing pour augmenter la visibilité en ligne des entreprises, y compris l'optimisation des moteurs de recherche (SEO) et la gestion des réseaux sociaux.</li>
+            <li><strong>Communication :</strong> Capacité à partager des idées et des connaissances de manière claire et engageante, que ce soit à travers des présentations ou des tutoriels en ligne.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <div class="contact-info">
+            <p><strong>Email :</strong> <a href="mailto:elyseanato69@gmail.com">elyseanato69@gmail.com</a></p>
+            <p><strong>WhatsApp :</strong> <a href="https://wa.me/22957069566" target="_blank">+229 57 06 95 66</a></p>
+            <p><strong>Telegram :</strong> <a href="https://t.me/crypto_vente" target="_blank">@crypto_vente</a></p>
+            <p><strong>NGL :</strong> <a href="https://ngl.link/elysman2" target="_blank">Envoyez-moi un message anonyme</a></p>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <h2>Jeu : Quiz sur Anato</h2>
+        <p>Testez vos connaissances sur moi avec ces questions amusantes :</p>
+        <div id="questions">
+            <div class="question">
+                <p>1. Quelle est ma passion principale ?</p>
+                <button onclick="checkAnswer('crypto', 'passion')">Crypto-monnaies</button>
+                <button onclick="checkAnswer('design', 'passion')">Design graphique</button>
+                <button onclick="checkAnswer('sport', 'passion')">Sport</button>
+                <p class="quiz-result" id="passion-result"></p>
             </div>
-        </section>
-        
-        <section id="contact">
-            <h2>Me Contacter</h2>
-            <p>Pour toute question ou collaboration, n'hésitez pas à me contacter via mon email : <a href="mailto:elyse.anato@example.com">elyse.anato@example.com</a></p>
-        </section>
-    </div>
+
+            <div class="question">
+                <p>2. Dans quel domaine suis-je étudiant ?</p>
+                <button onclick="checkAnswer('tech', 'etude')">Technologie</button>
+                <button onclick="checkAnswer('medecine', 'etude')">Médecine</button>
+                <button onclick="checkAnswer('arts', 'etude')">Arts</button>
+                <p class="quiz-result" id="etude-result"></p>
+            </div>
+
+            <div class="question">
+                <p>3. Quel est mon objectif avec mes projets ?</p>
+                <button onclick="checkAnswer('aider', 'objectif')">Aider les entreprises</button>
+                <button onclick="checkAnswer('voyager', 'objectif')">Voyager dans le monde</button>
+                <button onclick="checkAnswer('devenir_riche', 'objectif')">Devenir riche</button>
+                <p class="quiz-result" id="objectif-result"></p>
+            </div>
+        </div>
+        <button onclick="resetQuiz()">Réinitialiser le Quiz</button>
+    </section>
 
     <footer>
         <p>&copy; 2024 Anato Elysé. Tous droits réservés.</p>
